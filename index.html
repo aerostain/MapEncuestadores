@@ -17,19 +17,64 @@
 </head>
 
 <body>
-  
+
   <div class="map">
     <div id="imap"></div>
-    <div class="alert alert-info afile" role="alert" id="showArellanoFile"><span class="material-icons esp">folder_copy</span>P.E. 123456789 Aceros Arequipa </div>
+    <div class="alert alert-info afile" role="alert" id="showArellanoFile"><span
+        class="material-icons esp">folder_copy</span>P.E. 123456789 Aceros Arequipa </div>
     <button class="btn btn-info" id="btnZoomOut"><span class="material-icons">remove</span></button>
-    <button class="btn btn-info" id="btnZoomIn"><span class="material-icons">add</span></button>     
+    <button class="btn btn-info" id="btnZoomIn"><span class="material-icons">add</span></button>
     <button class="btn btn-info btnmapUbic" id="btnUbic"><span class="material-icons">my_location</span></button>
     <button class="btn btn-info" id="btnZoomIni"><span class="material-icons">zoom_out_map</span></button>
     <button class="btn btn-info" id="btnMapLayers"><span class="material-icons">layers</span></button>
     <button class="btn btn-info" id="btnArellanoFiles"><span class="material-icons">folder_copy</span></button>
     <button class="btn btn-info" id="btnSearch"><span class="material-icons">search</span></button>
     <button class="btn btn-info" id="btnSet"><span class="material-icons">settings</span></button>
-  </div>  
+  </div>
+
+  <!-- Modal Files -->
+  <div id="myModalFiles" class="modal">
+
+    <!-- Contenido del Modal -->
+    <div class="modal-content">
+      <span class="close" id="closef">&times;</span>
+      <p>¡Hola! Este es tu modal de Files.</p>
+
+    </div>
+
+  </div>
+
+  <!-- Modal Layers -->
+  <div id="myModalLayers" class="modal">
+
+    <!-- Contenido del Modal -->
+    <div class="modal-content">
+      <span class="close" id="closel">&times;</span>
+      <p>¡Hola! Este es tu modal de Layers.</p>
+      <div>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <input type="radio" name="layer" value="osm" checked> Default
+                </li>
+                <li class="list-group-item">
+                  <input type="radio" name="layer" value="osmPositron"> Positron
+                </li>
+                <li class="list-group-item">
+                  <input type="radio" name="layer" value="osmDark"> Dark
+                </li>
+              </ul>
+            </div>
+          </div>          
+        </div>
+        <button onclick="changeLayer()" class="btn btn-info">Cambiar Capa</button>
+      </div>
+    </div>
+
+  </div>
+
 </body>
 <script src="main.js"></script>
 
