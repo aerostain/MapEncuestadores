@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+#imap {
+  height: 100vh;
+  width: 100vw;
+}
+
+.btnmapUbic {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 40px;
+  width: 40px;
+}
+
+#btnZoomIni {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 165px;
+  left: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 40px;
+  width: 40px;
+}
+
+#btnMapLayers {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 230px;
+  left: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 40px;
+  width: 40px;
+}
+
+#btnArellanoFiles {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 295px;
+  left: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 40px;
+  width: 40px;
+}
+
+#btnSearch {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 360px;
+  left: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 40px;
+  width: 40px;
+}
+
+#btnSet {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 425px;
+  left: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 40px;
+  width: 40px;
+}
+
+#btnZoomOut {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 60px;
+  width: 40px;
+}
+
+#btnZoomIn {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 75px;
+  right: 10px;
+  z-index: 1000;
+  opacity: 70%;
+  height: 60px;
+  width: 40px;
+}
+
+.leaflet-control-zoom {
+  visibility: hidden;
+}
+
+#showArellanoFile {
+  padding: 1px 10px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  z-index: 1000;
+  opacity: 90%;
+  height: 40px;
+  width: 300px;
+}
+
+.afile {
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+  justify-content: center; /* Alinea horizontalmente */  
+}
+
+.esp{
+  margin-right: 5px;
+}
